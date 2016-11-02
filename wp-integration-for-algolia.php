@@ -11,9 +11,9 @@
  * @package shifter-algolia
  */
 
-add_filter( 'algolia_post_shared_attributes', 'shifter_replace_algolia_link', 10, 2 );
-add_filter( 'algolia_searchable_post_shared_attributes', 'shifter_replace_algolia_link', 10 ,2);
-function shifter_replace_algolia_link(  $shared_attributes, $post  ){
+add_filter( 'algolia_post_shared_attributes', 'shifter_replace_algolia_permalink', 10, 2 );
+add_filter( 'algolia_searchable_post_shared_attributes', 'shifter_replace_algolia_permalink', 10 ,2);
+function shifter_replace_algolia_permalink(  $shared_attributes, $post  ){
 	$replaced_domain = getenv( 'SHIFTER_DOMAIN' );
 	if ( ! $replaced_domain ) {
 		$replaced_domain =getenv( 'CF_DOMAIN' );
