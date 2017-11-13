@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Shifter - Algolia Integrations
- * Version: 0.1.0
+ * Version: 0.1.1
  * Plugin URI:https://github.com/getshifter/wp-integration-for-algolia
  * Description: Integration plugin between shifter and algolia
  * Author: Shifter Team
