@@ -1,11 +1,11 @@
 <?php
 /*
- * Plugin Name: Shifter Algolia
+ * Plugin Name: Shifter - Algolia Integrations
  * Version: 0.1.0
  * Plugin URI:https://github.com/getshifter/wp-integration-for-algolia
  * Description: Integration plugin between shifter and algolia
- * Author: hideokamoto
- * Author URI: https://go.getshifter.io/
+ * Author: Shifter Team
+ * Author URI: https://github.com/getshifter
  * License: GNU General Public License v2.0
  * Text Domain: shifter-algolia
  * @package shifter-algolia
